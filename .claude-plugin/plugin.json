@@ -1,0 +1,9 @@
+{
+  "name": "db-package",
+  "version": "1.0.0",
+  "description": "PostgreSQL の業務ロジックを「スキーマ = 1 機能パッケージ」としてストアドプロシジャで開発するための手順書スキル（PL/pgSQL + pgTAP、工程チェックリスト、QA プレイブック）",
+  "author": {
+    "name": "ohya"
+  },
+  "keywords": ["postgresql", "plpgsql", "pgtap", "stored-procedure", "db-package", "skill"]
+}

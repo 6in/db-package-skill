@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "db-package-skill",
+  "description": "DB パッケージ開発（スキーマ = 1 機能パッケージ）スキルのマーケットプレイス",
+  "owner": {
+    "name": "ohya"
+  },
+  "plugins": [
+    {
+      "name": "db-package",
+      "description": "PostgreSQL の業務ロジックをストアドプロシジャでパッケージ化する開発手順書スキル（PL/pgSQL + pgTAP）",
+      "version": "1.0.0",
+      "author": {
+        "name": "ohya"
+      },
+      "category": "development",
+      "source": "./"
+    }
+  ]
+}
