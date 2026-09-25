@@ -32,14 +32,16 @@ docs/
 ### Claude Code（プラグインとして）
 
 ```bash
-# GitHub に置いた場合
-claude plugin marketplace add <owner>/db-package-skill
+# GitLab から
+claude plugin marketplace add https://gitlab.nasa.future.co.jp/fre/components/db-package-skill.git
 claude plugin install db-package@db-package-skill
 
 # ローカルクローンから試す場合
 claude plugin marketplace add /path/to/db-package-skill
 claude plugin install db-package@db-package-skill
 ```
+
+更新は `claude plugin update db-package`。
 
 インストール後はスキル名 `db-package:db-package` として読み込まれる。
 `~/.claude/skills/db-package` に同名の個人スキルを置いている場合は重複するので、
@@ -48,7 +50,7 @@ claude plugin install db-package@db-package-skill
 ### skills CLI（Claude Code / Codex / Cursor など共通）
 
 ```bash
-npx skills add <owner>/db-package-skill
+npx skills add https://gitlab.nasa.future.co.jp/fre/components/db-package-skill.git
 ```
 
 ### 手動
