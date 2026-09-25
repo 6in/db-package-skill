@@ -32,6 +32,10 @@ docs/
 ### Claude Code（プラグインとして）
 
 ```bash
+# GitHub から（短縮形）
+claude plugin marketplace add 6in/db-package-skill
+claude plugin install db-package@db-package-skill
+
 # GitLab から
 claude plugin marketplace add https://gitlab.nasa.future.co.jp/fre/components/db-package-skill.git
 claude plugin install db-package@db-package-skill
@@ -50,6 +54,8 @@ claude plugin install db-package@db-package-skill
 ### skills CLI（Claude Code / Codex / Cursor など共通）
 
 ```bash
+npx skills add 6in/db-package-skill
+# GitLab の場合は git URL を指定
 npx skills add https://gitlab.nasa.future.co.jp/fre/components/db-package-skill.git
 ```
 
